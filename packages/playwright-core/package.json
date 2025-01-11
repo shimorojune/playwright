@@ -1,6 +1,6 @@
 {
-  "name": "playwright-core",
-  "version": "1.50.0-next",
+  "name": "@shimorojune/playwright-core",
+  "version": "1.50.0-next-0.0.1",
   "description": "A high-level API to automate web browsers",
   "repository": {
     "type": "git",
@@ -8,11 +8,16 @@
   },
   "homepage": "https://playwright.dev",
   "engines": {
-    "node": ">=18"
+    "node": ">=14.7"
   },
   "author": {
     "name": "Microsoft Corporation"
   },
+  "contributors": [
+    {
+      "name": "Rohit Raj"      
+    }
+  ],
   "license": "Apache-2.0",
   "exports": {
     ".": {
@@ -38,7 +43,7 @@
     "./types/structs": "./types/structs.d.ts"
   },
   "bin": {
-    "playwright-core": "cli.js"
+    "@shimorojune/playwright-core": "cli.js"
   },
   "types": "types/types.d.ts"
 }
