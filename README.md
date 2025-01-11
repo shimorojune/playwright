@@ -2,6 +2,17 @@
 
 [![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-132.0.6834.57-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GEN:stop --> <!-- GEN:firefox-version-badge -->[![Firefox version](https://img.shields.io/badge/firefox-132.0-blue.svg?logo=firefoxbrowser)](https://www.mozilla.org/en-US/firefox/new/)<!-- GEN:stop --> <!-- GEN:webkit-version-badge -->[![WebKit version](https://img.shields.io/badge/webkit-18.2-blue.svg?logo=safari)](https://webkit.org/)<!-- GEN:stop --> [![Join Discord](https://img.shields.io/badge/join-discord-infomational)](https://aka.ms/playwright/discord)
 
+## Fork Customizations
+* This package is a fork of the official [Playwright](https://github.com/microsoft/playwright) repository.
+
+* It has been customized to meet the specific requirements of PlayUI.
+
+* This fork will be maintained and updated in alignment with the official releases from the main repository as necessary.
+
+### Customized Packages:
+
+* playwright-core - [@shimorojune/playwright-core](https://www.npmjs.com/package/@shimorojune/playwright-core)
+
 ## [Documentation](https://playwright.dev) | [API reference](https://playwright.dev/docs/api/class-playwright)
 
 Playwright is a framework for Web Testing and Automation. It allows testing [Chromium](https://www.chromium.org/Home), [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [WebKit](https://webkit.org/) with a single API. Playwright is built to enable cross-browser web automation that is **ever-green**, **capable**, **reliable** and **fast**.
